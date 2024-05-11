@@ -3,7 +3,7 @@
 :root {
     --bg : #88AB8E;
     --blue: #AFC8AD;
-    --green-text: #1A4D2E;
+    --green-text: #4F6F52;
 }
 
 *{
@@ -50,7 +50,7 @@ header h1:hover{
                  transform: scale(1.1);
 }
 header h1 span{
-    color: var(--bg);
+    color: #BFF6C3;
 }
 span{
     color: var(--green-text);
