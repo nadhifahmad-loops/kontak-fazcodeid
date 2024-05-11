@@ -113,7 +113,7 @@ header ul li a:hover{
 
 .image img{
     width: 350px;
-    border-radius: 50%;
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
 }
 
 .content{
@@ -121,7 +121,6 @@ header ul li a:hover{
     flex-direction: column;
     justify-content: center;
     max-width: 40%;
-
 }
 
 .subtitle{
@@ -202,8 +201,8 @@ header ul li a:hover{
 
 }
 .div-about img{
-    border-radius: 1rem;
-    width: 500px;
+    width: 1000px; /* Tetapkan lebar gambar */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
 }
 .div-abouts{
     margin-top: 1rem;
