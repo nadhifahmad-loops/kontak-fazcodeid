@@ -398,7 +398,7 @@ header ul li a:hover{
     transition: background-color .5s ease;
 }
 .btn-1:hover{
-    background-color: #397f54;
+    background-color: #68916d;
     border: 2px solid var(--green-text);
 }
 
