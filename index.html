@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferdi Panondan Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">
+                <h1>
+                    ferdi<span>panondan</span>
+                </h1>
+
+            </a>
+            <ul>
+                <li><a href="#one">Home</a></li>
+                <li><a href="#two">About Me</a></li>
+                <li><a href="#three">Education</a></li>
+                <li><a href="#four">Contact Me</a></li>
+            </ul>
+            <bottom id="btn">
+                <i class="fa-solid fa-bars"></i>
+            </bottom>
+        </nav>
+    </header>
+    <section id="one">
+        <div class="s-container" >
+            <div class="content">
+                <p class="subtitle">
+                    Hello
+                </p>
+                <h1 class="tittle">
+                    Saya <span>Ferdi Panondan Zaylisdianto<br></span>Mahasiswa Informatika
+                </h1>
+                <p class="description">
+                    This is my official portfolio website designed to show all the details and information about me in web development. I hope this site provides clear information about me and my abilities in the web development industry.
+                </p>
+                <div class="buttons">
+                    <button><a href="file/CV Raka Maulana.pdf" download>Download CV</a></button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="image/image1.jpg" alt="image1">
+            </div>
+        </div>
+    </section>
+    <section id="two">
+        <h2>About <span>Me</span></h2>
+        <div class="div-about">
+            <img src="image/image1.jpg" alt="image2" >
+            <div class="div-abouts">
+                <h3>Ferdi <span>Panondan</span> </h3>
+                <p>Hello, I am Ferdi Panondan, an informatics student who is passionate about web development and has a deep interest in code and design. My educational background is in the field of informatics, with these studies forming a solid foundation for me in exploring creativity in web development.</p>
+                <div class="div-btn">
+                    <button><a href="mailto:rakamaulana215@gmail.com">Contact Me</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="three" class="education">
+        <h2 class="heading">Edu<span>cation</span> </h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"> </div>
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Junior High School</h3>
+                        <p>Berpendidikan di MTS YTP Kertosono di kabupaten Nganjuk pada tahun 2017 dan memperoleh ijazah Madrasah Tsanawiyah pada tahun 2020</p>
+                        
+                    </div>
+               
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Senior High School</h3>
+                        <p>Berpendidikan di MA YTP Kertosono dikabupaten Nganjuk pada tahun 2021 dan memperoleh ijazah Madrasah Aliyah pada tahun 2023</p>
+
+                    </div>
+                
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - sekarang</div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p>Sekarang melanjutkan pendidikan S1 Teknik Informatika di Universitas Telkom SUrabaya</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="contact-form" id="four" >
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+        <form id="form" action="https://formspree.io/f/xgegqoov" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name*" required>
+                <input type="email" name="email" placeholder="Email*" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Phone Number*" required>
+            </div>
+            <textarea name="msg"  cols="30" rows="10" placeholder="Your Message*" required></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+        <div class="loader ease-linear mt-5 rounded-full border-4 border-t-4 border-gray-200 h-6 w-6 mx-auto"></div>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/pengdy_27/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=6281315976900"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@ferrdipanondan"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <p class="copyright">Copyright &copy; 2024 Fazcode.id. All Right Reserved.</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
